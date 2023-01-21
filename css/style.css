@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+:root {
+    --main-bg-color: brown;
+  }
+  main {
+    height: 1000px;
+  }
+
+  nav ul li a:hover{
+    color: rgb(153, 154, 180);
+    text-decoration: none;
+    font-weight: center;
+
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height:60px;
+    background-color
+        : var(--main-bg-color);
+        font-family: 'Lora', serif;
+      }
+    nav{
+        display: flex;
+    }
+    .log{
+        display: flex; 
+         align-items: center;
+    }
+    .log img{
+        width: 88px;
+        padding: 0 25px;
+
+    }
+
+nav ul{
+     display:flex ; 
+    justify-content: flex-start;  
+}
+nav ul li{
+    list-style: none;
+    padding: 20px 20px;
+  
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 100px 2opx 30px;
+}
+.search{
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+}
+.search input{
+    width: 448px;
+height: 40px;
+border-radius: 10px;
+}
+.search button{
+    font-family:'Lora', serif; 
+    font-weight: 900;
+    margin: 10px 50px;
+    
+}
+.conatainer{
+    max-height: calc(100vh-60px-12vh);
+}
+
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+.slider{
+    margin: auto;
+    
+}
+.p{
+    background: #000;
+}
+.login{
+   margin-right: 1px;
+    color:white;
+    text-align-last: right;
+}
+.card{
+    padding: auto;
+    margin-top: 20px ;
+    margin-left: 20px;
+}
+.link{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-item{
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+}
